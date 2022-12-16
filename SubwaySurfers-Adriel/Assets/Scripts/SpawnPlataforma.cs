@@ -19,7 +19,7 @@ public class SpawnPlataforma : MonoBehaviour
             gerarPlataformas(Random.Range(0, i));
     }
 
-    private void Update()
+    void Update()
     {
         if(Jogador.position.z - 35 > (gerador - plataformasNaTela * tamanhoPlataforma))
         {
